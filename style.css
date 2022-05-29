@@ -1,0 +1,72 @@
+html {
+	font-family:sans-serif;
+	background-color:black;
+}
+header {
+	background-image:linear-gradient(to right, #FF00E5, #00F0FF, #FF00E5);
+}
+strong {
+	position:absolute;
+	top:200px;
+	left:10px;
+	color:#ff33cc;
+	font-size:10px;
+}
+.not_read {
+	background-image:linear-gradient(to right, #ff33cc, lightblue, #ff33cc);
+	height:150px;
+}
+strong:hover {
+	color:white;
+}
+.guide {
+	position:absolute;
+	left:38%;
+}
+.logo {
+	width:100px;
+	height:100px;
+}
+.logo:hover {
+	width:500px;
+	height:500px;
+	transition:0.2s linear;
+}
+h1 {
+	color:white;
+	position:relative;
+	bottom:90px;
+	left:100px;
+}
+.mouse:hover {
+	transform:translateX(1000px);
+	transition:0.1s linear;
+}
+footer {
+	background-image:linear-gradient(#FF00E5, white);
+}
+a {
+	background-image:linear-gradient(to right, black, #FF00E5, black);
+	padding:10px;
+	border-radius:10px;
+	position:relative;
+	top:40px;
+	left:30px;
+	color:white;
+	text-decoration:none;
+}
+footer {
+	height:100px;
+}
+h2 {
+	color:white;
+}
+.adress {
+	position:relative;
+	left:120px;
+}
+.contacts {
+	position:absolute;
+	left:1050px;
+	top:1900px;
+}
